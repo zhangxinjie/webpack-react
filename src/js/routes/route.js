@@ -1,3 +1,6 @@
+/*
+ *@配置路由
+ */
 'use strict';
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
