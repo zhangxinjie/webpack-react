@@ -1,0 +1,53 @@
+html{
+  font-size:100px;
+}
+body{
+	font-size:.14rem;
+	font-family:'Roboto';
+	color:#444;
+	font-weight:500;
+}
+
+.clearfix:after{
+	content:".";
+	visibility:hidden;
+	display:block;
+	height:0;
+	clear:both;
+	*zoom:1;
+}
+
+
+$navbackgroundcolor: #13CE66;
+.container{
+  padding:.2rem;
+  p{
+    line-height:.3rem;
+    font-size:.16rem;
+  }
+  ul{
+    width:100%;
+    overflow:hidden;
+    li{
+      float:left;
+      margin-right:.2rem;
+      a{
+        display:block;
+        line-height:.24rem;
+        padding:0 .1rem;
+        background:#475669;
+        color:#fff;
+        &:hover{
+          background:$navbackgroundcolor;
+        }
+      }
+      .activeNav{
+        background:$navbackgroundcolor;
+      }
+    }
+  }
+  >a{
+    text-decoration: underline;
+    color:blue;
+  }
+}
